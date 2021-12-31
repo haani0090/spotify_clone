@@ -13,7 +13,7 @@ function Loader() {
             className="animate-pulse"
           />
         </span>
-        <ThreeBounce size={23} color="#15883e" />
+        <ThreeBounce size={23} color="#B72202" />
       </div>
     </div>
   );

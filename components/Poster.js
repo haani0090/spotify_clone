@@ -25,7 +25,7 @@ function Poster({ track, chooseTrack }) {
           />
     
           <div className="absolute bottom-10 inset-x-0 ml-4 flex items-center space-x-3.5">
-            <div className="h-10 w-10 bg-[#15883e] rounded-full flex items-center justify-center group-hover:bg-[#1db954] flex-shrink-0">
+            <div className="h-10 w-10 bg-[#B72202] rounded-full flex items-center justify-center group-hover:bg-[#1db954] flex-shrink-0">
               {track.uri === playingTrack.uri && play ? (
                 <BsFillPauseFill className="text-white text-xl" />
               ) : (

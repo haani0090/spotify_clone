@@ -35,7 +35,7 @@ function Signin({ providers }) {
      {Object.values(providers).map((provider) => (
         <div key={provider.name}>
           <button
-            className="text-white py-4 px-6 rounded-full bg-[#1db954] transition duration-300 ease-out border border-transparent uppercase font-bold text-xs md:text-base tracking-wider hover:scale-105 hover:bg-[#0db146]"
+            className="text-white py-4 px-6 rounded-full bg-[#B72202] transition duration-300 ease-out border border-transparent uppercase font-bold text-xs md:text-base tracking-wider hover:scale-105 hover:bg-[#B72202]"
             onClick={() => signIn(provider.id)}>
             Sign in with {provider.name}
           </button>
